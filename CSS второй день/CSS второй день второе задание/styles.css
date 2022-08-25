@@ -1,0 +1,95 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+#page {
+    max-width: 728px;
+    margin: auto;
+}
+
+#page > .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0;
+
+    font-size: 24px;
+    text-align: center;
+}
+
+.footer {
+    padding: 21px;
+
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+}
+
+.header > div > button {
+    padding: 7px 14px;
+
+    background-color: #00c100;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+
+.card {
+    padding: 20px;
+    margin-bottom: 20px;
+
+    box-shadow: 0 2px 12px #edeff0;
+    border-radius: 5px;
+}
+
+.title > a {
+    color: #0a9ae2;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header > div > strong {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.location {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    color: #999999;
+    font-size: 15px;
+}
+
+.company :first-child {
+    color: #00c100;
+}
+
+.company :last-child {
+    font-style: italic;
+}
+
+.company {
+    margin-bottom: 15px;
+}
+
+.description + .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer > button {
+    padding: 7px 14px;
+
+    background-color: #0a9ae2;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footer > div {
+    color: #999999;
+    font-size: 14px;
+}

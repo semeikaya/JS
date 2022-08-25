@@ -1,0 +1,135 @@
+.head {
+    border: 1px solid black;
+    width: 1080px;
+    height: auto;
+    /* background-color: red; */
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 30px;
+}
+.body1 {
+
+    width: 1080px;
+    height: auto;
+    /* background-color: rgb(140, 0, 255); */
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+.body2 {
+    width: 1080px;
+    height: auto;
+    /* background-color: black; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.body21 {
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    /* background-color: brown; */
+    flex-basis: 30%;
+}
+.body22 {
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    /* background-color: brown; */
+    flex-basis: 30%;
+}
+.body23 {
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    /* background-color: brown; */
+    flex-basis: 30%;
+}
+.body21 > p {
+    font-size: 20px;
+}
+.body22 > p {
+    font-size: 20px;
+}
+.body23 > p {
+    font-size: 20px;
+}
+.body3 {
+    width: 1080px;
+    height: auto;
+    /* background-color: rgb(140, 0, 255); */
+    margin: auto;
+    font-size: 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 20px;
+}
+.body4 {
+    width: 1080px;
+    height: auto;
+    /* background-color: black; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.body41 {
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 15px;
+    box-sizing: border-box;
+    /* background-color: brown; */
+    flex-basis: 20%;
+}
+.body42 {
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 15px;
+    box-sizing: border-box;
+    /* background-color: brown; */
+    flex-basis: 20%;
+}
+.body43 {
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 15px;
+    box-sizing: border-box;
+    /* background-color: brown; */
+    flex-basis: 20%;
+}
+.body44 {
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 15px;
+    box-sizing: border-box;
+    /* background-color: brown; */
+    flex-basis: 20%;
+}
+.body41 > p {
+    font-size: 20px;
+}
+.body42 > p {
+    font-size: 20px;
+}
+.body43 > p {
+    font-size: 20px;
+}
+.body44 > p {
+    font-size: 20px;
+}
+.foot {
+    width: 1080px;
+    height: auto;
+    /* background-color: rgb(140, 0, 255); */
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 20px;
+}

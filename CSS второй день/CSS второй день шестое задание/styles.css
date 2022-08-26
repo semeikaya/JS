@@ -47,6 +47,55 @@ header nav {
     line-height: 40px;
 }
 
+.features{
+    background-color:#f1f1f2;
+}
+
+.features-body-1, .features-body-2 {
+    display: flex;
+    align-items: center;
+}
+.features-body-1 div {
+    width: 50%;
+}
+
+.features-text-1 {
+    width: 430px;
+    height: 410px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.features-title-1 {
+    margin: 0;
+    font-size: 56px;
+    
+}
+
+.features-text-1 .text {
+    font-size: 20px;
+}
+
+.find-gift-button{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #F7941E;
+    background-color: #F7941E;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
+
+
+
+
+
+
 .body1 {
     display: flex;
     width: 1440px;

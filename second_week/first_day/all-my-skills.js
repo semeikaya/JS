@@ -9,3 +9,10 @@ const bestAnime = (a, b) => {
 }
 console.log(bestAnime(anime1, anime2));
 console.log(anime1.length + anime2.length);
+
+
+let b = 500
+b = 300
+
+b = 'Car4'
+console.log(b.length);

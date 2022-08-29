@@ -39,6 +39,19 @@ console.log(sum([1, 3, 6, 11, 98, 7, 1]))
 
 function hasEqualSums(first, second) {
  // тут твой код
+ let res1 = 0
+ let res2 = 0
+ for (const ar of first) {
+  res1 = res1 + ar
+ }
+ for (const ar of second) {
+  res2 = res2 + ar
+  }
+if (res1 === res2) {
+  return true
+} else {
+  return false
+}
 }
 
 console.log(hasEqualSums([11, 22], [1, 20, 10, 1, 1]));
@@ -57,6 +70,18 @@ console.log(hasEqualSums([4, 4], [3, 6]));
 
 function repeatsXTimes(numbers, needle, count) {
   // тут твой код
+let res = 0
+for (const ar of numbers) {
+  if (ar === needle) {
+    res = res + 1
+  }
+}
+if ( res === count) {
+  return true
+} else {
+  return false
+}
+
 }
 
 console.log(repeatsXTimes([1, 5, 1, 3, 1], 1, 3));
@@ -73,8 +98,15 @@ console.log(repeatsXTimes([1, 2, 1, 2, 4], 2, 2));
  * Функция должна вернуть массив, в котором остались только те имена, длина которых соответствует указанному во втором параметре числу.
  */
 
-function filterNames(names) {
+function filterNames(names, num) {
   // тут твой код
+  const array = []
+  for (const ar of names) {
+    if (ar.length === num) {
+      array.push(ar)
+    }
+  }
+  return array
 }
 
 console.log(filterNames(['into', 'code', 'js', 'html', 'git'], 4));
@@ -88,6 +120,12 @@ console.log(filterNames(['into', 'code', 'js', 'html', 'git'], 4));
 
 function searchWord(words, text) {
   // тут твой код
+  for (const ar of words) {
+    if (text.indexOf(ar) > -1) {
+      return true
+    }
+  }
+  return false
 }
 
 console.log(searchWord(['js', 'css', 'php'], 'я изучаю css')); // true
@@ -101,6 +139,22 @@ console.log(searchWord(['js', 'css', 'php'], 'я изучаю css и js')); // t
 
 function opposition(numbers) {
   // твой код
+  const arr1 =[]
+  let res1 = numbers[0]
+  let res2 = numbers[0]
+  for (const ar of numbers) {
+    if (ar > res1) {
+      res1 = ar
+    }
+  }
+
+  for (const ar of numbers) {
+      if (ar < res2) {
+          res2 = ar
+        }
+  }
+
+  return [res2, res1]
 }
 
 console.log(opposition([1, -4, 6, -144, 5])); // [-144, 6]
@@ -115,6 +169,12 @@ console.log(opposition([1, -4, 6, -144, 5])); // [-144, 6]
 
 function cutText(text, limit) {
   // твой код
+  const txtArray = text.split(' ')
+    if(txtArray.length < limit) {
+        return text
+    } else {
+        return `${text.split(' ', limit).join(' ')}...`
+    }
 }
 
 console.log(cutText('Всё в мире подорожало', 5))

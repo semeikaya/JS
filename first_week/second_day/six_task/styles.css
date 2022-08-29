@@ -1,0 +1,574 @@
+@media all and (max-width: 1284px) {
+    header {
+        width: 1080px;
+    }
+}
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    font-family: "Gilroy";
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fafafa;
+    
+}
+.head-line {
+max-width: 1440px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px;
+}
+
+header .logo {
+    width: 40px;
+}
+header nav {
+    width: 330px;
+}
+
+.nav {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.gift-finder-button{
+    width: 140px;
+    height: 40px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color: #F7941E;
+    text-align: center;
+    line-height: 40px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0 auto;
+    
+}
+img{
+width: 100%;
+display: block;
+}
+.container1{
+    display: flex;
+    max-width: 1440px;
+    background-color:#fafafa;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.text-block1, .img-block-1, .text-block2, .img-block-2 {
+    display: flex;
+    margin: 0;
+    width: 50%;
+    align-items: center;
+}
+
+
+
+.container2{
+    display: flex;
+    max-width: 1440px;
+    background-color:#fafafa;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.text-block2, .img-block-2 {
+    width: 50%;
+}
+
+
+.description-block-1{
+    display: flex;
+    margin: auto;
+    width: 433px;
+    height: 410px;
+    background-color:#fafafa;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.description-block-2{
+    display: flex;
+    margin: auto;
+    width: 433px;
+    height: 332px;
+    background-color:#fafafa;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.description-block-1 h1 {
+    margin: 0;
+    font-size: 55px;
+}
+.head-how-we-work {
+    margin: 0;
+    font-size: 32px;
+}
+.description-block-1 .description {
+    background-color: #fafafa;
+    font-size: 20px;
+}
+.description-block-1 .find-gift-button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #F7941E;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+}
+.description-block-2 .learn-more-button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #F7941E;
+    color: #F7941E;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+}
+.description-block-2 .description{
+    font-size: 20px;
+}
+
+
+
+.second-section{
+    padding: 0;
+    margin: 0;
+
+width: 100%;
+}
+.container3{
+max-width: 1170px;
+background-color: rgb(255, 255, 255);
+margin: auto;
+}
+
+.description-block-3 {
+    display: flex;
+    max-width: 1170px;
+    min-height: 80px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 90px;
+
+}
+.description-block-3 h5 {
+    margin: 0;
+}
+.holidays{
+    margin-top: 60px;
+    max-width: 1170px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+.description-block-3 .title {
+    font-size: 32px;
+}
+.description-block-3 .subtitle {
+    font-size: 18px;
+    font-weight:  300;
+}
+
+.hol-1, .hol-2, .hol-3, .hol-4 {
+    background-color: #FAFAFA;
+    width: 270px;
+    min-height: 435px;
+}
+.hol-text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+    margin: 20px;
+}
+.hol-1 {
+    box-shadow: -10px 7px 5px rgb(215 212 212);
+}
+
+.fourth-section{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+.description-block-4 {
+    display: flex;
+    max-width: 1170px;
+    min-height: 80px;
+    text-align: center;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.title-desc {
+    font-size: 32px;
+}
+.subtitle-desc {
+    font-size: 18px;
+    font-weight:  300;
+}
+.quote{
+    margin-top: 60px;
+    max-width: 1170px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.quote-text-1{
+    display: flex;
+    color: white;
+    margin-left: 50px;
+    max-width: 492px;
+    min-height: 258px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.john-doe-text{
+    font-size: 48px;
+}
+.john-read-more{
+    font-size: 18px;
+}
+.container4{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    }
+
+.excerpt {
+        max-width: 1170px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .ex-block-1, .ex-block-2 {
+        padding: 50px;
+        width: 49%;
+        min-height: 290px ;
+        background-color: #FAFAFA;
+    }
+    .ex-block-1{
+        box-shadow: 10px 7px 5px rgb(215 212 212);
+    }
+    .ex-text {
+        display: flex;
+        max-width: 450px;
+        min-height: 190px;
+
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .ex-head {
+        font-size: 24px;
+font-weight: bold;
+    }
+    .ex-desc {
+        font-size: 18px;
+    }
+    footer {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #fafafa;
+    }
+    .container5{margin: auto;
+        max-width: 1440px;
+        min-height: 410px;
+        padding-top: 100px;
+
+    }
+    .foot-block{
+        max-width: 1000px;
+        min-height: 270px;
+        margin: auto;
+        padding-top: 80px;
+    }
+    
+    .nav-foot {
+        margin-top: 90px;
+    margin: auto;
+        max-width: 620px;
+    }
+    .foot-ul{
+        
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 600;
+    }
+    .foot-ul img {
+        max-width: 40px;
+    }
+    .social img {
+        max-width: 40px;
+    }
+    .social {
+        display: flex;
+
+justify-content: space-between;
+
+    }
+    .foot-social {
+        
+        margin: auto;
+
+        max-width: 350px;
+    }
+    .privacy {
+        padding-top: 60px;
+        max-width: 800px;
+        background-color: aliceblue;
+        text-align: center;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hol-Ramadan{
+    font-size: 20px;
+}
+.hol-1 {
+    box-shadow: -10px 7px 5px rgb(215 212 212);
+} */
+
+.third-section{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.orange-block {
+    display: flex;
+    max-width: 1440px;
+    height: 240px;
+    background-color: #F7941E;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+.ready-to-start {
+    display: flex;
+    max-width: 335px;
+    max-height: 90px;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.orange-block-1, .orange-block-2 {
+display: flex;
+width: 50%;
+align-items: center;
+justify-content: center;
+}
+.started {
+    font-size: 32px;
+    font-weight: bold;
+}
+.sign-up{
+    
+    font-size: 32px;
+}
+.buttons{
+    display: flex;
+    width: 420px;
+    height: 50px;
+    justify-content: space-between;
+}
+.find-gift{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+.how-it-works{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 1148px) {
+    nav {
+        display: none;
+    }
+    .text-block1, .img-block-1 {
+        display: flex;
+        width: 100%;
+        padding: 5px;
+    }
+    .container2 {
+        flex-direction: column-reverse;
+    }
+    .text-block2, .img-block-2 {
+        display: flex;
+        width: 100%;
+        padding: 5px;
+    }
+    .buttons{
+        width: 100%;
+
+    }
+.orange-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+    .orange-block-1, .orange-block-2 {
+        width: 100%;
+    }
+    .find-gift-button, .how-it-works{
+        width: 40%;
+    }
+    
+    .hol-1, .hol-2, .hol-3, .hol-4 {
+        width: 80%;
+    }
+    .holidays{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hol-text-1 {
+        height: 80px;
+        
+    }
+    .buttons {
+        max-width: 300px;
+    }
+
+    .find-gift{
+        width: 40%;
+        font-size: 14px;
+    }
+    .how-it-works{
+    width: 40%;
+    font-size: 14px;
+    }
+    .description-block-1 h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+    .description{
+        text-align: center;
+    }
+    .find-gift-button{
+        margin: auto;
+    }
+    .description-block-1{
+        max-height: 300px;
+        
+    }
+    .quote{
+        max-width: 1170px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .quote-text-1{display: flex;
+        color: rgb(0, 0, 0);
+        max-width: 200px;
+        max-height: 200px;
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+        margin: 0;
+        
+    }
+    .john-doe-text{
+        font-size: 32px;
+    }
+    .ex-block-1, .ex-block-2 {
+margin: auto;
+        width: 90%;
+        min-height: 290px ;
+        
+    }
+    .ex-block-1{
+        margin-bottom: 20px;
+        background-color: #F7941E;
+        box-shadow: 10px 7px 5px rgb(215 212 212);
+    }
+    .nav-foot{
+        display: none;
+    }
+    .foot-social {
+        width: 80%;
+    }
+}
+

@@ -1,0 +1,28 @@
+.form-block {
+width: 100%px;
+
+
+margin: 0;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 65px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.login-text {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+}
+.enter-data {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+}

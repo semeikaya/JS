@@ -170,7 +170,7 @@ console.log(opposition([1, -4, 6, -144, 5])); // [-144, 6]
 function cutText(text, limit) {
   // твой код
   const txtArray = text.split(' ')
-    if(txtArray.length < limit) {
+    if(txtArray.length <= limit) {
         return text
     } else {
         return `${text.split(' ', limit).join(' ')}...`

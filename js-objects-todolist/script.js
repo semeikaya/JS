@@ -2,11 +2,11 @@ const todoList = {
     items: [
         {
             text: 'Завершить текущий челлендж',
-            completed: false,
+            completed: true,
         },
         {
             text: 'Отдохнуть во время перерыва',
-            completed: false,
+            completed: true,
         },
         {
             text: 'Помочь напарнику понять код',
@@ -14,29 +14,40 @@ const todoList = {
         },
         {
             text: 'Выиграть в мафию',
-            completed: true,
+            completed: false,
         },
     ],
 
     printAll: function () {
-        for (const ar of todoList.items) {
-            console.log(ar.text);
+        for (i = 0; i < todoList.items.length; i++) {
+            todoList.print(i);
         }
     },
 
     add: function (text) {
-        todoList.items.unshift({text: text, completed: false})
-     },
+        todoList.items.unshift({ text: text, completed: false })
+    },
 
     remove: function (index) {
         todoList.items.splice(index, 1)
     },
 
-    print: function (index) { },
+    print: function (index) {
+        if (todoList.items[index].completed === false) {
+            console.log(`[ ] ${todoList.items[index].text}`);
 
-    complete: function (index) { },
+        } else {
+            console.log(`[X] ${todoList.items[index].text}`);
+        }
+    },
+
+    complete: function (index) {
+        todoList.items[index].completed = true
+    },
 };
 
 
-todoList.remove(0)
+
+todoList.printAll()
+todoList.complete(3)
 todoList.printAll()
